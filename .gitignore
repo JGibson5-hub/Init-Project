@@ -1,0 +1,8 @@
+*.pptx
+*.docx
+*.xlsx
+**/Input Data
+**/Figures
+Output Data/*
+!Output Data/ValidateFile1.txt
+!Output Data/ValidateFile2.txt
