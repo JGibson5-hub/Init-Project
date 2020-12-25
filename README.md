@@ -1,6 +1,8 @@
+# Introduction
+The following scripts are useful for setting up a project structure and getting tallies to be processed from MNCP ".io" files.
+I put as much parameter info in the filename itself then strip the filename
 
-# init_Project.
-
+## init_Project.m
 This script creates the general folder structure/workflow I use for pulling Tallies from MCNP and putting the data in one folder.
 The workflow can be extended to experiments as well.  This workflow:
 * Puts details of the model in the filename itself

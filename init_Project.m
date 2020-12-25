@@ -13,7 +13,8 @@ currentDocNum = 'xxx';
 fname = ['Document Template.docx' currentDocNum '.docx'];
 copyfile('Document Template.docx',fname);
 copyfile(fname,direc);
-copyfile('process.m',[direc '\Analysis']);
+% this fileis the main entry point for the folder
+copyfile('main.m',[direc '\Analysis']);
 % Work flow is to dump data into one directory and use tables (MATLAB) to track data
 % Will convert to Pandas DataFrame for implementation in Python
 copyfile('getMCNPTally.m',[direc '\Analysis']);
